@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    
+    
+}
+a{
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(95, 89, 89);
+}
+.son{
+    margin: 40px;
+}
+.nav1{
+    margin: 40px;
+}
+h1{
+    width: 60%;
+    font-size: 50px;
+}
+button{
+     background-color: chocolate;
+     height: 20%;
+     width: 30%;
+     border: none;
+     
+}
+p{
+    
+}

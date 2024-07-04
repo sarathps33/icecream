@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.son{
+    font-size: 10px;
+    text-decoration: underline;
+}
+.mon{
+    font-size: 10px;
+}
+.dad{
+    font-size: 15px;
+    padding: 10px;
+}
+.mom{
+    font-size: 15px;
+    padding: 10px;
+}
+.dog{
+    color: white;
+    padding-right: 10px;
+}
+

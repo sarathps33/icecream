@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.son{
+    font-size: 10px;
+    text-decoration: underline;
+}
+.mon{
+    font-size: 10px;
+}
+.dad{
+    font-size: 15px;
+    padding: 10px;
+}
+.mom{
+    font-size: 15px;
+    padding: 10px;
+}
+.one{
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+}
+.pics{
+    height:200px;
+    width: 200px;
+    border-radius: 100%;
+    object-fit: fill;
+}
+.fashion{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    object-fit:fill;
+}
+
+

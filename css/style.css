@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.son{
+    font-size: 10px;
+    text-decoration: underline;
+}
+.mon{
+    font-size: 10px;
+}
+.dad{
+    font-size: 15px;
+    padding: 10px;
+}
+.mom{
+    font-size: 15px;
+    padding: 10px;
+}
+.one{
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+}
+.pics{
+    height:200px;
+    width: 200px;
+    border-radius: 100%;
+    object-fit: fill;
+}
+.fashion{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    object-fit:fill;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar .left,
+.navbar .right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .left a {
+    padding: 0 10px;
+}
+
+.navbar .right a {
+    padding: 0 10px;
+}
+
+.navbar .left .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.navbar .left .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.navbar .left .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.navbar .left .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.navbar .left .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar .right a.icon {
+    font-size: 18px;
+}
+.delivery{
+    text-decoration: underline;
+}
+.to{
+    font-size: 15px;
+    padding-top: 1px;
+}
+

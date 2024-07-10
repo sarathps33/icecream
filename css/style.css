@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.son{
+    font-size: 10px;
+    text-decoration: underline;
+}
+.mon{
+    font-size: 10px;
+}
+.dad{
+    font-size: 15px;
+    padding: 10px;
+}
+.mom{
+    font-size: 15px;
+    padding: 10px;
+}
+.one{
+    height: 25%;
+    width: 25%;
+    object-fit: cover;
+}
+.pics{
+    height:200px;
+    width: 200px;
+    border-radius: 100%;
+    object-fit: fill;
+}
+.fashion{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    object-fit:fill;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    display: flex; .promo-banner {
+        background-color: #f9e7a8;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .promo-banner .content {
+        max-width: 500px;
+    }
+
+    .promo-banner .content h1 {
+        margin: 0;
+        font-size: 24px;
+        color: #333;
+    }
+    .promo-banner {
+        background-color: #f9e7a8;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .promo-banner .content {
+        max-width: 500px;
+    }
+
+    .promo-banner .content h1 {
+        margin: 0;
+        font-size: 24px;
+        color: #333;
+    }
+
+    .promo-banner .content p {
+        margin: 10px 0;
+        color: #666;
+    }
+
+    .promo-banner .content .code {
+        margin-top: 10px;
+        padding: 5px 10px;
+        background-color: #fff;
+        border: 1px dashed #333;
+        display: inline-block;
+        font-size: 16px;
+        color: #333;
+    }
+
+    .promo-banner .qr-code img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .promo-banner .app-links img {
+        width: 135px;
+        margin: 5px;
+    }
+    
+    .promo-banner .logo img {
+        width: 150px;
+    }
+    .promo-banner .content p {
+        margin: 10px 0;
+        color: #666;
+    }
+
+    .promo-banner .content .code {
+        margin-top: 10px;
+        padding: 5px 10px;
+        background-color: #fff;
+        border: 1px dashed #333;
+        display: inline-block;
+        font-size: 16px;
+        color: #333;
+    }
+
+    .promo-banner .qr-code img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .promo-banner .app-links img {
+        width: 135px;
+        margin: 5px;
+    }
+    
+    .promo-banner .logo img {
+        width: 150px;
+    }
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar .left,
+.navbar .right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .left a {
+    padding: 0 10px;
+}
+
+.navbar .right a {
+    padding: 0 10px;
+}
+
+.navbar .left .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.navbar .left .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.navbar .left .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.navbar .left .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.navbar .left .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar .right a.icon {
+    font-size: 18px;
+}
+.delivery{
+    text-decoration: underline;
+}
+.to{
+    font-size: 15px;
+    padding-top: 1px;
+}
+.two{
+    margin-right: 10px;
+}
+.nav-link{
+    color: black;
+}
+a{
+    color: black;
+}
+.search-container{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    max-width: 300px;
+}
+.search-container input[type="text"]{
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 5px;
+    font-size: 16px;
+}
+.search-contaner .icon{
+    font-size: 15px;
+    margin-right: 10px;
+
+}
+.search-container input::placeholder{
+    color:#999
+}
+.parent{
+     margin-top: 2px;
+}
+.father{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card{
+     border: none;
+}
+.another{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(245, 185, 95);
+    margin-top: 30px;
+}
+h6{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+h5{
+    font-size: 10px;
+    text-align: center;
+}
+.qwert{
+    width: 100%;
+    
+}
+
+.card{
+    width: 400px;
+    padding:10px;
+}
+.cot{
+   height:400px ;
+   width: 400px;
+   margin: 20px;
+}
+.phone{
+    height:400px ;
+   width: 400px;
+   margin-left: 300px;
+
+}
+.scroll-container{
+    background-color: white; 
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    margin-top: 40px;
+
+}
+.scroll-container img{
+    width: 30%;
+    height: 80vh;
+    padding: 10px;
+    object-fit: cover;
+}
+
+.promo-banner {
+    background-color: #f9e7a8;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.promo-banner .content {
+    max-width: 500px;
+}
+
+.promo-banner .content h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.promo-banner .content p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.promo-banner .content .code {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px dashed #333;
+    display: inline-block;
+    font-size: 16px;
+    color: #333;
+}
+
+.promo-banner .qr-code img {
+    width: 100px;
+    height: 100px;
+}
+
+.promo-banner .app-links img {
+    width: 135px;
+    margin: 5px;
+}
+
+.promo-banner .logo img {
+    width: 150px;
+}
+.mern{
+    height: 600px;
+    width: 600px;
+    margin-left: 60px;
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+}
+.mern1{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+}
+.mern2{
+    display: flex;
+    width: 500px;
+    height: 100%;
+    margin-left: 400px;
+}
+.mern3{
+    position: absolute;
+    width: 800px;
+    height: 250px;
+    background-color: #f9e7a8;
+    border-radius: 10px;
+    left: 550px;
+    top: 30%;
+    text-align: center;
+}
+.some{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 30px;
+    
+}
+.child{
+    width: 300px;
+    margin:20px;
+    background-color: #fff;
+
+}
+.blue{
+   height: 80vh;
+   width: 100%; 
+   background-color: rgb(63, 63, 146);
+}
+.red{
+    box-flex-group: rgb(32, 32, 141);
+    margin-top: 50px;
+}
+.pop{
+    margin-top: 3%;
+    margin-left: 38%;
+}
+.pop a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.head{
+    color: rgb(248, 248, 49);
+    text-align: center;
+    padding-top: 30px;
+}
+.yellow{
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    margin-top: 40px;
+}
+.yellow img{
+    width: 20%;
+    height: 50vh;
+    padding: 10px;
+    object-fit: cover;
+}
+.snake{
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    margin-top: 40px;
+}
+.snake img{
+    width: 20%;
+    height: 50vh;
+    padding: 10px;
+    object-fit: cover;
+}
+.fog{
+    background-color: rgb(16, 16, 43);
+    height: 80vh;
+    width: 100vw;
+    margin-top: 55px;
+    border-color: 10%;
+}
+.green{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+.aljo{
+    width: 100%;
+    
+    
+}
+.yadhav{
+    color: #fff;
+    padding-left: 120px;
+    
+    
+}
+.evin{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+}
+.asd a{
+    color: #fff;
+    text-align: center;
+    padding-left: 350px;
+    
+}
+
+
